@@ -1,9 +1,9 @@
 <?php
 class Database {
     private $host = "localhost";
-    private $db_name = "c0api";
-    private $username = "db_user_el";
-    private $password = "457ae3027";
+    private $db_name = "";
+    private $username = "";
+    private $password = "";
     public $conn;
 
     public function getConnection() {
